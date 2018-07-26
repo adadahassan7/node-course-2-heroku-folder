@@ -1,5 +1,5 @@
 {
-  "name": "n-7-19-queries-and-id-validation",
+  "name": "n-7-22-deploy-to-heroku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,10 +9,18 @@
     "test-watch": "nodemon --exec 'npm test'"
   },
   "engines": {
-    "node": "6.2.2"
+    "node": "10.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adadahassan7/node-course-2-heroku-folder.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adadahassan7/node-course-2-heroku-folder/issues"
+  },
+  "homepage": "https://github.com/adadahassan7/node-course-2-heroku-folder#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
@@ -21,7 +29,8 @@
     "jsonwebtoken": "^8.3.0",
     "lodash": "^4.17.10",
     "mongodb": "^3.1.1",
-    "mongoose": "^5.2.4",
+    "mongoose": "^5.2.5",
+    "s": "^0.1.1",
     "validator": "^10.4.0"
   },
   "devDependencies": {
